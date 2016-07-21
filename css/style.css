@@ -1,0 +1,15 @@
+.main {
+	font-family: 'Quattrocento', serif;
+	height: 20%;
+}
+#social-links {
+	border:3px solid black;
+	border-radius:6px;
+	width:10%;
+	height:10%;
+	background: rgb(202, 237, 255);
+	text-align:left;
+	font-family: 'Quattrocento', serif;
+	list-style: none;
+	display: inline-block;
+}
