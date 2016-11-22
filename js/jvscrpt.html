@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Snippets</title>
+</head>
+<body>
+	<p id="intro">
+		This paragraph is special.
+	</p>
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script>
+	$(function (){
+		$("#intro").click(function (e){
+			$(e.target).slideUp();
+		});
+	});
+	</script>
+</body>
+</html>

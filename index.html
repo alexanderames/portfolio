@@ -1,53 +1,102 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 	<title>Alexander-Ames.com</title>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	</head>
-<body class="container">
-	<link rel="stylesheet" type="text/css" href="css/style.css"><link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
-	<center>
-			<h1 class="main">This is my website.</h1>
-			<h2 class="main">Don't do anything I wouldn't ;)</h2>
-	</center>
+		<link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	  	<link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css">
+	  	<link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-static-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Alexander-Ames.com</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="#About" id="button1">About Me</a></li>
+	      <li><a href="#Skills" id="button2">Skills</a></li>
+	      <li><a href="#social-links" id="button3">Find Me</a></li> 
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="jumbotron" id="nospace">
+	  <h1 class="main">Step into my office</h1> 
+	  <p class="main">and pour yourself a drink.</p>
+	</div>
+
+	<section id="About">
+		<div class="main">
+			<div class="container">
+			<h2>About Me</h2>
+				<p>Dreamcatcher pinterest 90's, bushwick squid cold-pressed wayfarers gluten-free vice viral pickled ethical tilde. Kickstarter shoreditch literally, tote bag meh lumbersexual raw denim hella deep v blog VHS. Organic tofu blue bottle fashion axe, keytar locavore lumbersexual beard etsy keffiyeh selfies. Viral chia XOXO tote bag, listicle small batch cornhole ramps typewriter tacos direct trade mustache swag. Next level dreamcatcher actually narwhal pour-over fanny pack. Squid salvia keytar, plaid keffiyeh neutra blue bottle sustainable farm-to-table portland single-origin coffee green juice fanny pack helvetica marfa. Pour-over master cleanse whatever tousled yr kinfolk, blue bottle kale chips DIY food truck chicharrones man bun.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="Skills">
+		<div class="main">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Skills</h2>
+				</div>
+				<div class="col-md-8">
+					<div class="skills-slider">
+					  <div><img src="./img/html5.png"></div>
+					  <div><img src="./img/ruby.png"></div>
+					  <div><img src="./img/css3.png"></div>
+					  <div><img src="./img/javascript.png"></div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<center>
+<section id="social-links">
 <div class="main">
-	<p>Dreamcatcher pinterest 90's, bushwick squid cold-pressed wayfarers gluten-free vice viral pickled ethical tilde. Kickstarter shoreditch literally, tote bag meh lumbersexual raw denim hella deep v blog VHS. Organic tofu blue bottle fashion axe, keytar locavore lumbersexual beard etsy keffiyeh selfies. Viral chia XOXO tote bag, listicle small batch cornhole ramps typewriter tacos direct trade mustache swag. Next level dreamcatcher actually narwhal pour-over fanny pack. Squid salvia keytar, plaid keffiyeh neutra blue bottle sustainable farm-to-table portland single-origin coffee green juice fanny pack helvetica marfa. Pour-over master cleanse whatever tousled yr kinfolk, blue bottle kale chips DIY food truck chicharrones man bun.</div></p>
-
-<div class="row">
-	<div class="col-md-4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-
-
-	<div class="col-md-4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-
-	<div class="col-md-4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="social">
+		<h2>Find me (online).</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/alexander.ames.7" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+        <li><a href="http://twitter.com/amesdev" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/alexanderames" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+        <li><a href="http://thealexanderboy.tumblr.com"><i class="fa fa-lg fa-tumblr"></i></a></li>
+    </ul>
 	</div>
 </div>
-<center>
-<div id="social-links"><p>
-	<ul>
-		<li><a href="http://twitter.com/amesdev">Twitter</a></li>
-		<li><a href="https://www.facebook.com/alexander.ames.7">Facebook</a></li>
+</section>
+<div class="elevator-button">
+	Back to Top
+</div>
 </center>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ 
+<script>
+// Elevator script included on the page, already.
+ 
+window.onload = function() {
+  var elevator = new Elevator({
+    element: document.querySelector('.elevator-button'),
+    mainAudio: './elevator.mp3',
+    endAudio: './ding.mp3'
+  });
+}
+
+elevator.elevate();
+</script>
+
+<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/slick/slick.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
