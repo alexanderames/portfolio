@@ -1,11 +1,4 @@
-//Slider
-$(document).ready(function(){
-  $('.skills-slider').slick({
-    autoplay: true,
-    infinite: true,
-    arrows: false,
-  });
-});
+
 //Smooth scroll to each sections
 $("#button1").click(function(){
 	$('html, body').animate({
@@ -23,7 +16,18 @@ $("#button3").click(function(){
 	}, 1000);
 });
 
-//typed text
+//accordian
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+
 
 
 //Elevator

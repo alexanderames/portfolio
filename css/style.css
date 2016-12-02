@@ -1,3 +1,26 @@
+p.zoomIn {
+  -webkit-animation-delay: 2s;
+  color: white;
+  mix-blend-mode: exclusion;
+   background-color: black;
+  background-blend-mode: screen;
+  letter-spacing: 9px;
+  line-height: 0px;
+}
+h1.zoomIn {
+  -webkit-animation-delay: 1.5s;
+ color: white;
+  mix-blend-mode: exclusion;
+   background-color: black;
+  background-blend-mode: screen;
+}
+ul.navbar-right {
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
 .main {
 	font-family: 'Quattrocento', serif;
 	height: 20%;
@@ -5,22 +28,19 @@
 }
 
 .jumbotron {
-  background-image: url('../img/macperfection.jpeg');
-	background-attachment: static;
+  background-image: url('../img/macparty.jpeg');
+	background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:  cover;
   background-position: center;
   color: black;
   min-height: 800px;
-}
-
-.navbar {
-  margin: 0;
+  margin-bottom: -15px;
 }
 
 h2 {
   font-size: 50px;
-  padding-top: 200px;
+  padding-top: 120px;
   padding-bottom: 50px;
 }
 
@@ -28,7 +48,9 @@ section div ul {
   padding-top: 200px;
   padding-bottom: 50px;
 }
-
+div.elevator-button {
+  text-align: center;
+}
 
 
 #About {
@@ -36,9 +58,78 @@ section div ul {
     min-height: 100vh;
 }
 
+#About p {
+  letter-spacing: 8px;
+  font-size: 17px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #Skills {
-    background: #898CB2;
+    padding-top: 175px;
+    background-image: url('../img/words.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
     min-height: 100vh;
+}
+
+#Skills h1 {
+  font-size: 70px;
+  color: white;
+}
+
+#Skills div.container {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 20px;
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
 }
 
 .social {
