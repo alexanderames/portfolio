@@ -49,6 +49,9 @@ section div ul {
   padding-bottom: 50px;
 }
 div.elevator-button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
   text-align: center;
 }
 
@@ -59,7 +62,7 @@ div.elevator-button {
 }
 
 #About p {
-  letter-spacing: 8px;
+  letter-spacing: 7px;
   font-size: 17px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -84,6 +87,31 @@ div.elevator-button {
   background-color: rgba(255,255,255,0.2);
   border-radius: 20px;
 }
+
+img.sass-less {
+  width: 360px;
+  height: 129px;
+  float: right;
+}
+img.js {
+  width: 180px;
+  height: 180px;
+  float: right;
+}
+img.ruby {
+  width: 180;
+  height: 180;
+  position: absolute;
+    z-index: 0;
+    float: right;
+}
+img.pg {
+  width: 180;
+  height: 180;
+position: absolute;
+    z-index: 1;
+float: right;
+  }
 
 button.accordion {
     background-color: #eee;

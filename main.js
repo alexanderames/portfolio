@@ -1,4 +1,14 @@
-
+$(document).ready(function(){
+$('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+  });
+});
 //Smooth scroll to each sections
 $("#button1").click(function(){
 	$('html, body').animate({
