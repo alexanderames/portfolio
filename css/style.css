@@ -51,7 +51,7 @@ section div ul {
 div.elevator-button {
   position: fixed;
   bottom: 0px;
-  right: 0px;
+  right: 50px;
   text-align: center;
 }
 
